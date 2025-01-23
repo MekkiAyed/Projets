@@ -1,0 +1,113 @@
+.Body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.background_content{
+    position: relative;
+    z-index: 2;
+}
+
+.background::before{
+    position: absolute;
+    content: '';
+    background-image: url("SOURCE/Fond.jpg");
+    margin: 0;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    z-index: 1;
+}
+
+
+.ban{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    background-color:rgb(219, 219, 219);
+    padding: 30px;
+    z-index: 1000;
+    box-shadow: 2 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+.button{
+    background-color: #0071e3;
+    transition: background-color 0.3s;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button:hover {
+    background-color: #005bb5;
+    box-shadow: 0 4px 10px;
+}
+
+.button:active {
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+    /* ne pas copier en dessous */ 
+
+
+
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Affiche les éléments verticalement */
+        margin: 0 auto;
+        max-width: 800px; /* Largeur maximale */
+        margin-top: 100px;
+        z-index: 31;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .cours {
+        background-color: white; /* Fond blanc pour la section du cours */
+        border: 1px solid #ccc; /* Bordure */
+        border-radius: 5px; /* Coins arrondis */
+        padding: 20px; /* Espacement interne */
+        margin-bottom: 20px; /* Espace entre les sections */
+        z-index: 31;
+    }
+    
+    .image {
+        background-color: white; /* Fond blanc pour la section de l'image */
+        border: 1px solid #ccc; /* Bordure */
+        border-radius: 5px; /* Coins arrondis */
+        padding: 20px; /* Espacement interne */
+        text-align: center; /* Centre le contenu de l'image */
+        z-index: 31;
+    }
+    
+    .image img {
+        max-width: 100%; /* l'image ne dépasse pas la largeur de son conteneur */
+        height: auto; /* conserver les proportions */
+        z-index: 31;
+    }
+
+
+    .pdf{
+        background-color: white; /* Fond blanc pour la section de l'image */
+        border: 1px solid #ccc; /* Bordure */
+        border-radius: 5px; /* Coins arrondis */
+        padding: 20px; /* Espacement interne */
+        text-align: center; /* Centre le contenu de l'image */
+        z-index: 31;
+        margin-top: 20px;
+    }
