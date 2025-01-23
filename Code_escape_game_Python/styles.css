@@ -1,0 +1,39 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7f4e0;
+    background-image: url('fondancien.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #3b2d1f;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #d4b483;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #633c22;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url('fondancien.png');
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 2px solid #d4b483;
+    border-radius: 5px;
+}
