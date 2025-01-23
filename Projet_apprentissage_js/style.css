@@ -1,0 +1,13 @@
+label {
+    display: inline-block;
+    width: 150px;
+}
+input[type="text"], select {
+    width: calc(100% - 170px); /* Ajustez pour garder l'alignement */
+}
+
+textarea {
+    display: inline;
+    width: calc(100%);
+
+}
